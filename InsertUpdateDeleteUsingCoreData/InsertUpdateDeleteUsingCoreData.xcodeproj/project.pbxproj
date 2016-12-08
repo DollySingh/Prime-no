@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E651A9911DBF0CB900507F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9901DBF0CB900507F81 /* main.m */; };
+		E651A9941DBF0CBA00507F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9931DBF0CBA00507F81 /* AppDelegate.m */; };
+		E651A99A1DBF0CBA00507F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E651A9981DBF0CBA00507F81 /* Main.storyboard */; };
+		E651A99D1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E651A99B1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodeld */; };
+		E651A99F1DBF0CBA00507F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E651A99E1DBF0CBA00507F81 /* Assets.xcassets */; };
+		E651A9A21DBF0CBA00507F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E651A9A01DBF0CBA00507F81 /* LaunchScreen.storyboard */; };
+		E651A9AD1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9AC1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.m */; };
+		E651A9B81DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9B71DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.m */; };
+		E651A9C91DBF0E0D00507F81 /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9C61DBF0E0D00507F81 /* Employee+CoreDataProperties.m */; };
+		E651A9CA1DBF0E0D00507F81 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9C81DBF0E0D00507F81 /* Employee.m */; };
+		E651A9CD1DBF108F00507F81 /* FirstPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9CC1DBF108F00507F81 /* FirstPageTableViewController.m */; };
+		E651A9D01DBF10DE00507F81 /* InsertRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9CF1DBF10DE00507F81 /* InsertRecordViewController.m */; };
+		E651A9D31DBF19FA00507F81 /* UpdateDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E651A9D21DBF19FA00507F81 /* UpdateDataViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E651A9A91DBF0CBA00507F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E651A9841DBF0CB900507F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E651A98B1DBF0CB900507F81;
+			remoteInfo = InsertUpdateDeleteUsingCoreData;
+		};
+		E651A9B41DBF0CBA00507F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E651A9841DBF0CB900507F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E651A98B1DBF0CB900507F81;
+			remoteInfo = InsertUpdateDeleteUsingCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E651A98C1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsertUpdateDeleteUsingCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E651A9901DBF0CB900507F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E651A9921DBF0CBA00507F81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E651A9931DBF0CBA00507F81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E651A9991DBF0CBA00507F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E651A99C1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InsertUpdateDeleteUsingCoreData.xcdatamodel; sourceTree = "<group>"; };
+		E651A99E1DBF0CBA00507F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E651A9A11DBF0CBA00507F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E651A9A31DBF0CBA00507F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E651A9A81DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertUpdateDeleteUsingCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E651A9AC1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertUpdateDeleteUsingCoreDataTests.m; sourceTree = "<group>"; };
+		E651A9AE1DBF0CBA00507F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E651A9B31DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertUpdateDeleteUsingCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E651A9B71DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertUpdateDeleteUsingCoreDataUITests.m; sourceTree = "<group>"; };
+		E651A9B91DBF0CBA00507F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E651A9C51DBF0E0D00507F81 /* Employee+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E651A9C61DBF0E0D00507F81 /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E651A9C71DBF0E0D00507F81 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		E651A9C81DBF0E0D00507F81 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		E651A9CB1DBF108F00507F81 /* FirstPageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageTableViewController.h; sourceTree = "<group>"; };
+		E651A9CC1DBF108F00507F81 /* FirstPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageTableViewController.m; sourceTree = "<group>"; };
+		E651A9CE1DBF10DE00507F81 /* InsertRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertRecordViewController.h; sourceTree = "<group>"; };
+		E651A9CF1DBF10DE00507F81 /* InsertRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertRecordViewController.m; sourceTree = "<group>"; };
+		E651A9D11DBF19FA00507F81 /* UpdateDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateDataViewController.h; sourceTree = "<group>"; };
+		E651A9D21DBF19FA00507F81 /* UpdateDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateDataViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E651A9891DBF0CB900507F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E651A9A51DBF0CBA00507F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E651A9B01DBF0CBA00507F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E651A9831DBF0CB900507F81 = {
+			isa = PBXGroup;
+			children = (
+				E651A98E1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData */,
+				E651A9AB1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests */,
+				E651A9B61DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests */,
+				E651A98D1DBF0CB900507F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E651A98D1DBF0CB900507F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E651A98C1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData.app */,
+				E651A9A81DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.xctest */,
+				E651A9B31DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E651A98E1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E651A9921DBF0CBA00507F81 /* AppDelegate.h */,
+				E651A9931DBF0CBA00507F81 /* AppDelegate.m */,
+				E651A9981DBF0CBA00507F81 /* Main.storyboard */,
+				E651A99E1DBF0CBA00507F81 /* Assets.xcassets */,
+				E651A9A01DBF0CBA00507F81 /* LaunchScreen.storyboard */,
+				E651A9A31DBF0CBA00507F81 /* Info.plist */,
+				E651A99B1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodeld */,
+				E651A98F1DBF0CB900507F81 /* Supporting Files */,
+				E651A9C51DBF0E0D00507F81 /* Employee+CoreDataProperties.h */,
+				E651A9C61DBF0E0D00507F81 /* Employee+CoreDataProperties.m */,
+				E651A9C71DBF0E0D00507F81 /* Employee.h */,
+				E651A9C81DBF0E0D00507F81 /* Employee.m */,
+				E651A9CB1DBF108F00507F81 /* FirstPageTableViewController.h */,
+				E651A9CC1DBF108F00507F81 /* FirstPageTableViewController.m */,
+				E651A9CE1DBF10DE00507F81 /* InsertRecordViewController.h */,
+				E651A9CF1DBF10DE00507F81 /* InsertRecordViewController.m */,
+				E651A9D11DBF19FA00507F81 /* UpdateDataViewController.h */,
+				E651A9D21DBF19FA00507F81 /* UpdateDataViewController.m */,
+			);
+			path = InsertUpdateDeleteUsingCoreData;
+			sourceTree = "<group>";
+		};
+		E651A98F1DBF0CB900507F81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E651A9901DBF0CB900507F81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E651A9AB1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				E651A9AC1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.m */,
+				E651A9AE1DBF0CBA00507F81 /* Info.plist */,
+			);
+			path = InsertUpdateDeleteUsingCoreDataTests;
+			sourceTree = "<group>";
+		};
+		E651A9B61DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E651A9B71DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.m */,
+				E651A9B91DBF0CBA00507F81 /* Info.plist */,
+			);
+			path = InsertUpdateDeleteUsingCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E651A98B1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E651A9BC1DBF0CBA00507F81 /* Build configuration list for PBXNativeTarget "InsertUpdateDeleteUsingCoreData" */;
+			buildPhases = (
+				E651A9881DBF0CB900507F81 /* Sources */,
+				E651A9891DBF0CB900507F81 /* Frameworks */,
+				E651A98A1DBF0CB900507F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsertUpdateDeleteUsingCoreData;
+			productName = InsertUpdateDeleteUsingCoreData;
+			productReference = E651A98C1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E651A9A71DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E651A9BF1DBF0CBA00507F81 /* Build configuration list for PBXNativeTarget "InsertUpdateDeleteUsingCoreDataTests" */;
+			buildPhases = (
+				E651A9A41DBF0CBA00507F81 /* Sources */,
+				E651A9A51DBF0CBA00507F81 /* Frameworks */,
+				E651A9A61DBF0CBA00507F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E651A9AA1DBF0CBA00507F81 /* PBXTargetDependency */,
+			);
+			name = InsertUpdateDeleteUsingCoreDataTests;
+			productName = InsertUpdateDeleteUsingCoreDataTests;
+			productReference = E651A9A81DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E651A9B21DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E651A9C21DBF0CBA00507F81 /* Build configuration list for PBXNativeTarget "InsertUpdateDeleteUsingCoreDataUITests" */;
+			buildPhases = (
+				E651A9AF1DBF0CBA00507F81 /* Sources */,
+				E651A9B01DBF0CBA00507F81 /* Frameworks */,
+				E651A9B11DBF0CBA00507F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E651A9B51DBF0CBA00507F81 /* PBXTargetDependency */,
+			);
+			name = InsertUpdateDeleteUsingCoreDataUITests;
+			productName = InsertUpdateDeleteUsingCoreDataUITests;
+			productReference = E651A9B31DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E651A9841DBF0CB900507F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Student-004";
+				TargetAttributes = {
+					E651A98B1DBF0CB900507F81 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E651A9A71DBF0CBA00507F81 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E651A98B1DBF0CB900507F81;
+					};
+					E651A9B21DBF0CBA00507F81 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E651A98B1DBF0CB900507F81;
+					};
+				};
+			};
+			buildConfigurationList = E651A9871DBF0CB900507F81 /* Build configuration list for PBXProject "InsertUpdateDeleteUsingCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E651A9831DBF0CB900507F81;
+			productRefGroup = E651A98D1DBF0CB900507F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E651A98B1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData */,
+				E651A9A71DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests */,
+				E651A9B21DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E651A98A1DBF0CB900507F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E651A9A21DBF0CBA00507F81 /* LaunchScreen.storyboard in Resources */,
+				E651A99F1DBF0CBA00507F81 /* Assets.xcassets in Resources */,
+				E651A99A1DBF0CBA00507F81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E651A9A61DBF0CBA00507F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E651A9B11DBF0CBA00507F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E651A9881DBF0CB900507F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E651A9D01DBF10DE00507F81 /* InsertRecordViewController.m in Sources */,
+				E651A9D31DBF19FA00507F81 /* UpdateDataViewController.m in Sources */,
+				E651A99D1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodeld in Sources */,
+				E651A9CD1DBF108F00507F81 /* FirstPageTableViewController.m in Sources */,
+				E651A9941DBF0CBA00507F81 /* AppDelegate.m in Sources */,
+				E651A9CA1DBF0E0D00507F81 /* Employee.m in Sources */,
+				E651A9911DBF0CB900507F81 /* main.m in Sources */,
+				E651A9C91DBF0E0D00507F81 /* Employee+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E651A9A41DBF0CBA00507F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E651A9AD1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E651A9AF1DBF0CBA00507F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E651A9B81DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E651A9AA1DBF0CBA00507F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E651A98B1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData */;
+			targetProxy = E651A9A91DBF0CBA00507F81 /* PBXContainerItemProxy */;
+		};
+		E651A9B51DBF0CBA00507F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E651A98B1DBF0CB900507F81 /* InsertUpdateDeleteUsingCoreData */;
+			targetProxy = E651A9B41DBF0CBA00507F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E651A9981DBF0CBA00507F81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E651A9991DBF0CBA00507F81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E651A9A01DBF0CBA00507F81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E651A9A11DBF0CBA00507F81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E651A9BA1DBF0CBA00507F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E651A9BB1DBF0CBA00507F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E651A9BD1DBF0CBA00507F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsertUpdateDeleteUsingCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateDeleteUsingCoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E651A9BE1DBF0CBA00507F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsertUpdateDeleteUsingCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateDeleteUsingCoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E651A9C01DBF0CBA00507F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsertUpdateDeleteUsingCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateDeleteUsingCoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertUpdateDeleteUsingCoreData.app/InsertUpdateDeleteUsingCoreData";
+			};
+			name = Debug;
+		};
+		E651A9C11DBF0CBA00507F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsertUpdateDeleteUsingCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateDeleteUsingCoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertUpdateDeleteUsingCoreData.app/InsertUpdateDeleteUsingCoreData";
+			};
+			name = Release;
+		};
+		E651A9C31DBF0CBA00507F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsertUpdateDeleteUsingCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateDeleteUsingCoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsertUpdateDeleteUsingCoreData;
+			};
+			name = Debug;
+		};
+		E651A9C41DBF0CBA00507F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsertUpdateDeleteUsingCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateDeleteUsingCoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsertUpdateDeleteUsingCoreData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E651A9871DBF0CB900507F81 /* Build configuration list for PBXProject "InsertUpdateDeleteUsingCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E651A9BA1DBF0CBA00507F81 /* Debug */,
+				E651A9BB1DBF0CBA00507F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E651A9BC1DBF0CBA00507F81 /* Build configuration list for PBXNativeTarget "InsertUpdateDeleteUsingCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E651A9BD1DBF0CBA00507F81 /* Debug */,
+				E651A9BE1DBF0CBA00507F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E651A9BF1DBF0CBA00507F81 /* Build configuration list for PBXNativeTarget "InsertUpdateDeleteUsingCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E651A9C01DBF0CBA00507F81 /* Debug */,
+				E651A9C11DBF0CBA00507F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E651A9C21DBF0CBA00507F81 /* Build configuration list for PBXNativeTarget "InsertUpdateDeleteUsingCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E651A9C31DBF0CBA00507F81 /* Debug */,
+				E651A9C41DBF0CBA00507F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E651A99B1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E651A99C1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodel */,
+			);
+			currentVersion = E651A99C1DBF0CBA00507F81 /* InsertUpdateDeleteUsingCoreData.xcdatamodel */;
+			path = InsertUpdateDeleteUsingCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E651A9841DBF0CB900507F81 /* Project object */;
+}
